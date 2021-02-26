@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(238, 228, 228, 0.774);
+}
+nav{
+    
+}
+#navbar{
+    margin-left: 100px;
+}
+input{
+    color: white;
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .container-fluid{
+      text-decoration: underline;
+  }
+  .box{
+      background-color: green;
+  }
+  #circle{
+      background-color: grey;
+      border-radius: 50%;
+      border: 3px solid rgb(81, 81, 245);
+      width: 25px;
+      height: 25px;
+  }
+  #link2:active{
+      border-bottom: 5px solid blueviolet;
+  }
+  #link2:hover{
+      color: blueviolet;
+  }
+  #link3:hover{
+    color: blueviolet;
+}
+#link3:active{
+    border-bottom: 5px solid blueviolet;
+}
+#link4:active{
+    border-bottom: 5px solid blueviolet;
+}
+#link4:hover{
+    color: blueviolet;
+}
+#imagetext{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+   position: absolute;
+   top: 150px;
+   left: 100px;
+   right: 50px;
+   font-size: 25px;
+    
+  }
+  .bottom-right{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    right: 50px;
+    font-size: 25px;
+    font-size: 55px;
+    color: yellow;
+  }
+  .bottom-bottom{
+    position: absolute;
+    top: 510px;
+    left: 100px;
+    right: 50px;
+    font-size: 25px;
+  }
+  .bottom-top{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    right: 50px;
+    font-size: 55px;
+    color: yellow;
+  }
+  #browse{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    right: 50px;
+    font-size: 25px;
+
+  }
+  #opacity1{
+      opacity: 5;
+  }
